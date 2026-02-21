@@ -486,16 +486,17 @@ footer {
   padding: 48px 0;
 }
 
-.footer-links a {
-  color: rgba(255, 255, 255, 0.45);
-  text-decoration: none;
+.footer-links li a {
+  color: rgba(255, 255, 255, 0.45) !important;
+  text-decoration: none !important;
   font-size: 0.85rem;
   cursor: pointer;
   transition: color 0.2s;
+  display: inline-block;
 }
 
-.footer-links a:hover {
-  color: var(--white);
+.footer-links li a:hover {
+  color: var(--white) !important;
 }
 
 .footer-copy {
@@ -870,3 +871,4 @@ footer {
     padding: 40px 24px;
   }
 }
+
